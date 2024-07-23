@@ -1,52 +1,64 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const pageTitle = "Milky-Way";
+import Experience from "@/components/Experience.astro";
+import Briefcase from "@/components/icons/Briefcase.astro";
+
+const pageTitle = "Mi portafolio";
 ---
 <Layout pageTitle={pageTitle}>
-    <div class="gif">
-        <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp"/>
+    <div class="center" style="margin-top: 50px;">
+        <img width="150" height="150" alt="Me" src="/porfolio.webp" style="border-radius: 50%;" />
     </div>
-    <h1>Milky-Way</h1>
-    <span class="badge">Digital Craftsman (Developer)</span>
-    <h2>About</h2>
+    <h1>Daniela Zambrano</h1>
+    <span class="badge">Estudiante de Informática</span>
+    <h2>Sobre mí</h2>
     <p>
-        Praesent malesuada mi nisi, quis tempus magna venenatis ut.
-        Suspendisse tempor sem at scelerisque congue. Curabitur mollis,
-        mi id molestie finibus, metus sem sagittis nunc, euismod feugiat orci neque non lorem.
-        Aenean sollicitudin erat eu molestie tempus. Nunc ac eros elementum, fermentum lacus at,
-        pellentesque mauris. Suspendisse eros neque, interdum euismod consectetur convallis,
-        porttitor at massa. Phasellus a ultrices arcu. Donec viverra, lorem in pellentesque euismod,
-        libero justo gravida nibh, non ultricies justo purus ultrices est.
+        Soy Daniela Zambrano, una apasionada estudiante de informática actualmente en mi tercer año de estudios. 
+        Me encanta explorar nuevas tecnologías y enfrentar desafíos que me permitan crecer como desarrolladora. 
+        A lo largo de mi formación, he adquirido habilidades en diversas áreas de la programación y el desarrollo web, 
+        y estoy emocionada de aplicar lo que he aprendido en proyectos reales.
     </p>
     <p>
-        Ut at interdum dui. Donec ut ante ex. Maecenas id ex eget nibh consequat accumsan.
-        Proin semper semper dui nec feugiat. Donec cursus neque id aliquet finibus. Morbi
-        facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
-        Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
+        A lo largo de mi carrera académica, he trabajado en proyectos que incluyen el desarrollo de aplicaciones web, 
+        el diseño de interfaces intuitivas y la implementación de soluciones tecnológicas innovadoras. Mi objetivo es 
+        continuar aprendiendo y contribuyendo al campo de la informática, mientras construyo un portafolio que refleje 
+        mis habilidades y mi pasión por la tecnología.
     </p>
     <div class="center">
-        <a href="/works/">
-            <button class="btn">My portfolio</button>
+        <a href="/proyectos/">
+            <button class="btn">Mi portafolio</button>
         </a>
     </div>
-    <h2>Skills</h2>
-    <div class="skills center">
-        <img class="skills__img" width="46" height="46" alt="C#" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="DotNetCore" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="Angular" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"/>
+    <div id="experiencia">
+        <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">
+            <Briefcase class="size-8" />
+            Experiencia
+        </h2>
+        
+        <ul>
+            <li><h3>Autodidacta</h3></li>
+            <p>Como estudiante autodidacta, he desarrollado un profundo interés en la tecnología
+                y la programación fuera del aula tradicional. He tomado la iniciativa de aprender 
+                nuevas tecnologías, herramientas y metodologías por mi cuenta a través de cursos en línea, 
+                tutoriales y proyectos personales</p>
+
+            <li><h3>Resiliente y Adaptable</h3></li>
+            <p>Tengo una gran capacidad para adaptarme a cambios y superar obstáculos. 
+                La resiliencia es una de mis fortalezas, lo que me permite enfrentar desafíos 
+                con una actitud positiva y encontrar soluciones creativas.</p>
+        </ul>
+    </div>
+    <h2>Habilidades Técnicas</h2>
+    <div class="center">
         <img class="skills__img" width="46" height="46" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
         <img class="skills__img" width="46" height="46" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
         <img class="skills__img" width="46" height="46" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
+        <img class="skills__img" width="46" height="46" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"/>
     </div>
-    <h2>Interests</h2>
+    <h2>Intereses</h2>
     <p>
-        Ut at interdum dui. Donec ut ante ex. Maecenas id ex eget nibh consequat accumsan.
-        Proin semper semper dui nec feugiat. Donec cursus neque id aliquet finibus. Morbi
-        facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
-        Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
+        Además de que me apasiona la tecnología, disfruto resolver problemas difíciles, aprender cosas nuevas y desarrollar nuevas habilidades.
+        Me gusta trabajar en proyectos interesantes y seguir las últimas tendencias en tecnología. Estoy dedicada a mejorar profesionalmente y 
+        a hacer mi parte en el campo de la informática.
     </p>
 </Layout>
-
