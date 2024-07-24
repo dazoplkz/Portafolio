@@ -1,19 +1,15 @@
 ---
-title: 'Project 2'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'Tarjeta de Presentación'
+description: 'Una credencial de presentación personal con un diseño atractivo y profesional, ideal para mostrar información de contacto y habilidades.'
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+    url: '/image-3.webp'
+    alt: 'photo'
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
-worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
+    url: '/image-3.webp'
+    alt: 'imagen 1.'
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+stack: HTML, CSS
+github: https://github.com/dazoplkz/Card
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+El propósito de este proyecto es proporcionar una herramienta de presentación visual que se pueda utilizar en portafolios personales, sitios web profesionales y para compartir información de manera efectiva y estética.
