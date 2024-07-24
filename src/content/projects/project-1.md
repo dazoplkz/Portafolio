@@ -1,9 +1,9 @@
 ---
-title: 'Project 1'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'Portafolio Digital con Astro'
+description: 'Un portafolio personal creado con Astro para mostrar proyectos y habilidades en desarrollo web.'
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+    url: '/P1.webp'
+    alt: 'photo'
 worksImage1:
     url: '/image-1.webp'
     alt: 'first image of your project.'
@@ -13,7 +13,8 @@ worksImage2:
 platform: Web
 stack: Astro, JavaScript
 website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+github: https://github.com/dazoplkz/Mi_portafolio
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+Bienvenido a mi portafolio digital. Este sitio web, desarrollado con Astro, muestra una selección de mis proyectos y habilidades en desarrollo web. Aquí encontrarás ejemplos de mi trabajo en diferentes áreas, incluyendo desarrollo front-end y diseño web.
+
